@@ -17,8 +17,8 @@ print("Adicionamos Antoni e removemos Nicole")
 for aluno in alunos:
     #for = fazer variável só para for
     #print(f"Boa noite {aluno}")
-    alunos.sort(reverse = True)
-    print(alunos)
+    #alunos.sort(reverse = True)
+    print(aluno)
 
 
 
