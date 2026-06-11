@@ -1,6 +1,6 @@
 import time
 
-t = 10
+t = int(input("Número: "))
 
 print("Este é um cronômetro")
 

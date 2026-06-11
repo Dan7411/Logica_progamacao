@@ -4,8 +4,7 @@ valor =[]
 i = 1
 
 p = 1
-r = True
-while r == True:
+while True:
  v = float(input(f"Digite o valor do produto {p}: "))
  p += 1
  valor.append(v)
