@@ -9,13 +9,16 @@ notas = {
     "m" : (
         (a + b) / 2
     ),
+    "s1" : "aprovado",
+    "s2" : "reprovado",
+    "s3" : "recuperação"
 }
 if notas["m"] >= 7:
-    print(f"Você foi aprovado com média {notas['m']}")
+    print(f"Você foi {notas['s1']} com média {notas['m']}")
 elif notas["m"] >= 5:
-    print(f"Você ficou de recuperação com média {notas['m']}")
+    print(f"Você ficou de {notas['s3']} com média {notas['m']}")
 else:
-    print(f"Você foi reprovado com média {notas['m']}")        
+    print(f"Você foi {notas['s2']} com média {notas['m']}")        
 
 
 

@@ -1,1 +1,0 @@
-t = float(input("Digite a temperatura:  "))

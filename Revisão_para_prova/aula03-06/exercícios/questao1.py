@@ -1,16 +1,15 @@
-informacoes = []
+informacoes = {}
 
 print("Bem vindo\nEsse é a verificação do seu cracha,\na seguir, digite algumas informações")
+ 
+informacoes["nome"] = input("Digite o seu nome: ").upper()
 
-nome = input("Digite o seu nome: ")
-informacoes.append(nome)
+informacoes["idade"] = int(input("Digite a sua idade: ")) 
+ 
+informacoes["cidade"] = input("Digite a sua cidade natal: ").upper()
+ 
 
-idade = input("Digite a sua idade: ")
-informacoes.append(idade)
 
-cidade = input("Digite a sua cidade natal: ")
-informacoes.append(cidade)
-
-print("\nNome:",(informacoes[0]))
-print("Idade:",(informacoes[1]))
-print("Cidade natal:",(informacoes[2]))
+print("\nNome:",(informacoes['nome']))
+print("Idade:",(informacoes['idade']))
+print("Cidade natal:",(informacoes['cidade']))

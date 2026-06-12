@@ -1,6 +1,5 @@
 import time
 
-print("OBS:Letras somente maiúsculas")
 
 a = True
 t = 1
@@ -19,7 +18,7 @@ while True:
    t += 1
    if t > 3:
        time.sleep(1)
-       print("\nVocê foi além do número de tentativas permitidas,\nagora o progama será encerrado.")
+       print("\nVocê foi além do número de tentativas permitidas,\nacesso bloqueado.")
        break
 
   

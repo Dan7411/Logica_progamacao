@@ -8,5 +8,5 @@ valores = {
 "x" : v *3
 }
 
-print(f"o dobro é {valores["d"]},\nseu triplo é {valores["x"]}\ne a metade é {valores["m"]}")
+print(f"o dobro é {valores["d"]: .2f},\nseu triplo é {valores["x"]: .2f}\ne a metade é {valores["m"]: .2f}")
 

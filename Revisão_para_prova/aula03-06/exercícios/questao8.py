@@ -13,8 +13,9 @@ while True:
   
 
 
-print("A soma dos valores é",sum(valor))
+print("A soma dos valores é R$",sum(valor))
 time.sleep(1)
+
 for produto in valor:
   if produto != 0:
    print("\nO resultado da sua compra: ")
