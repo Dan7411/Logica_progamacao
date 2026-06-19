@@ -6,7 +6,7 @@ print("Opções:\n1-Verificar saldo\n2-Depositar\n3-Sacar\n4-Sair do sistema ")
 while True: 
  
  time.sleep(1)
- opcao = int(input("\nDigite sua opção: "))
+ opcao = input("\nDigite sua opção: ")
    
  match opcao:
    case "1":
